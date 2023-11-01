@@ -1,0 +1,49 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+background-image: url("../assets/bg.png");
+
+}
+
+.copy{
+    padding: 11rem 4rem; 
+    
+}
+.copy .text-bold{
+    text-align: start;
+    font-size: 4.6rem;
+    font-family: 'Just Me Again Down Here', cursive;
+    letter-spacing: 0.2rem;
+    color:#525151;
+}
+.text-hero-regular{
+    color:#787878;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+.btn{
+    background-color: #000;
+    color:#fff;
+    padding: 0.8rem 4.5rem;
+    font-size: 0.8rem;
+    margin-top:1rem;
+}
+.btn:hover{
+    background-color:antiquewhite;
+}
+.love{
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+}
+/* h1{
+    display: none;
+} */
+@media(max-width:576px){
+    section.Hero{
+        text-align: center;
+justify-content: center;
+align-items: center;
+    }
+   
+}

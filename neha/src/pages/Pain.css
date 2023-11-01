@@ -1,0 +1,74 @@
+.Pain{
+    background-color: #FCFDFC;
+    height: 100vh;
+}
+.title{
+color:#000;
+font-size: 4rem;
+font-family: 'Patrick Hand', cursive;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.pain-text{
+    color:#787878;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.icons-head{
+    color:#000;
+    font-size: 1.5rem;
+    text-align: center;
+justify-content: center;
+align-items: center;
+padding-top: 1rem;
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: icons .5s infinite alternate linear;
+}
+@keyframes icons {
+    from{
+transform: scale(.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.icons a {
+    font-size: 1.8rem;
+    padding:1rem 0rem;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin:0 0.6rem;
+    color:#EB595F;
+    
+    }
+
+    .icons a:hover{
+        color:#EB595F;
+    }
+    .pain{
+        text-align: center;
+        align-items: center;
+        align-content: center;  
+        
+    }
+    .pain-giff{
+        width: 36rem;
+    }
+    @media(max-width:576px){
+        .Pain{
+            padding-top: 5rem;
+        }
+        .pain-giff{
+            width: 15rem;
+        }
+    }
