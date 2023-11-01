@@ -45,7 +45,7 @@ const Pain = () => {
               <div className="col-lg-12 col-md-12 col-sm-12 pain">
                 <img src={pain} alt="mana gif" className="pain-giff" />
               </div>
-              <a href="/homepage" className="btn btn-outline filled">
+              <a href="/" className="btn btn-outline filled">
                 INTAKU MUNDU LA UNDAMA CLICK CHEY...🙏🏼
               </a>
             </div>

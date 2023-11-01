@@ -36,14 +36,16 @@ background-image: url("../assets/bg.png");
     font-size: 0.8rem;
     padding-left: 0.3rem;
 }
-/* h1{
+h1{
     display: none;
-} */
+}
 @media(max-width:576px){
     section.Hero{
-        text-align: center;
-justify-content: center;
-align-items: center;
+        display: none;
     }
-   
+    h1{
+     display: block;
+     align-items: center;
+     padding:25rem  5rem ;
+    }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../layout/Layout.css";
 import { Helmet } from "react-helmet";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title, description, keywords, author }) => {
   return (
     <div>
       <Helmet>

@@ -33,7 +33,9 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-        {/* <h1>Nehu poi Ede link laptop lo open cheyyu I love you...</h1> */}
+        <h1>
+          Nehu poi Ede link laptop lo open cheyyu I love you soo much nehuuu...
+        </h1>
       </Layout>
     </>
   );

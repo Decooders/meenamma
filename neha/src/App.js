@@ -5,7 +5,7 @@ import Pain from "../src/pages/Pain.js";
 function App() {
   return (
     <Routes>
-      <Route path="/homepage" element={<Homepage />} />
+      <Route path="/" element={<Homepage />} />
       <Route path="/pain" element={<Pain />} />
     </Routes>
   );
